@@ -1,0 +1,41 @@
+Fault_ID,Fault_Category,Fault_Name,Network_Layer,Fault_Type,Incident_Share_Weight
+F001,Optical Network,Fiber Cut,Access,Network,10
+F002,Optical Network,OLT Down,Access,Network,3
+F003,Optical Network,OLT Port Failure,Access,Network,3
+F004,Optical Network,PON Port Down,Access,Network,4
+F005,Optical Network,Optical Power Low,Access,Network,6
+F006,Optical Network,Feeder Fiber Fault,Access,Network,7
+F007,Optical Network,Distribution Fiber Fault,Access,Network,8
+F008,Optical Network,Splitter Failure,Access,Network,4
+F009,Access Equipment,ONT Offline,Access,Equipment,12
+F010,Access Equipment,ONT Authentication Failure,Access,Equipment,5
+F011,Access Equipment,ONT LOS,Access,Equipment,9
+F012,Access Equipment,ONT Power Failure,Access,Equipment,4
+F013,Access Equipment,ONT Registration Failure,Access,Equipment,5
+F014,Core & IP,BRAS Down,Core,Network,2
+F015,Core & IP,BNG Authentication Failure,Core,Network,2
+F016,Core & IP,DHCP Failure,Core,Network,3
+F017,Core & IP,PPPoE Authentication Failure,Core,Network,4
+F018,Core & IP,DNS Failure,Core,Network,2
+F019,Core & IP,Gateway Reachability Failure,Core,Network,1
+F020,Transport,Uplink Down,Transport,Network,4
+F021,Transport,Aggregation Link Failure,Transport,Network,3
+F022,Transport,Ring Break,Transport,Network,2
+F023,Transport,Backhaul Congestion,Transport,Network,3
+F024,Customer Premises,Wi-Fi Issue,Customer,Customer,15
+F025,Customer Premises,LAN Port Issue,Customer,Customer,8
+F026,Customer Premises,Router Configuration Issue,Customer,Customer,6
+F027,Customer Premises,Customer Power Off,Customer,Customer,5
+F028,Customer Premises,Patch Cord Issue,Customer,Customer,4
+F029,Customer Premises,Indoor Fiber Damage,Customer,Customer,5
+F030,Power & Environment,Power Failure,Site,Infrastructure,6
+F031,Power & Environment,Battery Backup Failure,Site,Infrastructure,3
+F032,Power & Environment,High Temperature Alarm,Site,Infrastructure,2
+F033,Configuration,Software Bug,System,Configuration,2
+F034,Configuration,Firmware Upgrade Failure,System,Configuration,2
+F035,Configuration,Provisioning Error,System,Configuration,4
+F036,Configuration,SDN Controller Synchronization Failure,System,Configuration,2
+F037,Third Party,Third-Party Fiber Damage,External,External,2
+F038,Third Party,Upstream Provider Outage,External,External,1
+F039,Vendor Hardware,Access Equipment Hardware Failure,Access,Hardware,2
+F040,Vendor Hardware,Core Network Hardware Failure,Core,Hardware,1

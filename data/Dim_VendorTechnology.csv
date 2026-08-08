@@ -1,0 +1,11 @@
+Vendor,Technology,VendorTech_ID,Vendor_MTTR_Profile,Vendor_SLA_Risk_Profile,Vendor_Reliability_Profile
+Huawei,GPON,1,0.95,0.05,0.03
+Huawei,XGS-PON,2,0.97,0.06,0.04
+Huawei,BRAS,3,0.98,0.04,0.03
+Nokia,GPON,4,1.0,0.07,0.05
+Nokia,XGS-PON,5,1.02,0.08,0.05
+Nokia,BRAS,6,1.03,0.07,0.05
+ZTE,GPON,7,1.05,0.09,0.07
+ZTE,BRAS,8,1.06,0.1,0.08
+Tejas,GPON,9,1.08,0.12,0.1
+Tejas,BRAS,10,1.1,0.14,0.12
