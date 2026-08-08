@@ -55,6 +55,64 @@ The project addresses five key business questions:
 | Technologies | GPON, XGS-PON, BRAS |
 | Dashboard Pages | 6 |
 | SQL Analysis Scripts | 8 |
+
+---
+
+# Solution Overview
+
+The project follows a structured business intelligence workflow that mirrors how an analytics solution is typically delivered in an enterprise environment.
+
+1. Business requirements were translated into measurable analytical objectives.
+2. A realistic broadband service assurance dataset was generated in Python using business-defined operational rules.
+3. The data was loaded into a dimensional star schema in MySQL for structured analysis.
+4. SQL was used to validate the dataset and answer key business questions.
+5. Power BI transformed the analytical model into interactive dashboards for operational monitoring and executive reporting.
+6. Analytical findings were translated into actionable business recommendations supported by quantitative evidence.
+
+This approach demonstrates the complete analytics lifecycle—from business problem definition to executive decision support—rather than dashboard development alone.
+
+---
+
+# Technology Stack
+
+| Stage | Technology |
+|---------|------------|
+| Business Analysis | BRD, Business Process Mapping |
+| Data Generation | Python, Pandas, NumPy |
+| Data Storage | CSV |
+| Database | MySQL |
+| Data Modeling | Star Schema |
+| Data Analysis | SQL |
+| Business Intelligence | Power BI, Power Query, DAX |
+| Documentation | BRD, Data Dictionary, GitHub |
+
+---
+
+# Project Architecture
+
+The solution follows a structured analytics workflow beginning with business requirements, followed by Python-based dataset generation, SQL dimensional modeling, business analysis, and interactive Power BI reporting.
+
+<p align="center">
+<img src="images/Project_Architecture.png" width="900">
+</p>
+
+---
+
+# Dimensional Data Model
+
+The analytical model follows a dimensional star schema designed to support efficient reporting, simplified querying, and scalable business analysis.
+
+The model consists of:
+
+- **1 Fact Table** — Incident-level operational records
+- **4 Dimension Tables** — Date, Site, Fault, and Vendor & Technology
+
+<p align="center">
+<img src="images/Star_Schema_Model.png" width="900">
+</p>
+
+---
+
 # Dashboard Preview
 
 ## Executive Service Assurance Dashboard
@@ -102,20 +160,7 @@ Summarizes the most significant analytical findings and translates them into pra
 ![Drillthrough](images/Incident_Investigation_(Drillthrough).png)
 
 Interactive drillthrough page that enables detailed investigation of individual fault categories, supporting root-cause analysis and operational troubleshooting at incident level.
----
 
-# Project Architecture
-
-![Project Architecture](images/Project_Architecture.png)
-
-The solution follows a structured analytics workflow beginning with business requirements, followed by synthetic data generation in Python, dimensional modeling in MySQL, SQL-based business analysis, interactive Power BI reporting, and finally business recommendations supported by data.
----
-
-# Data Model
-
-![Star Schema](images/Star_Schema_Model.png)
-
-The analytical model follows a dimensional star schema consisting of one incident fact table supported by four dimension tables (Date, Site, Fault, and Vendor & Technology). This design simplifies analytical queries while supporting efficient Power BI reporting and scalable business analysis.
 ---
 
 # Key Business Insights
